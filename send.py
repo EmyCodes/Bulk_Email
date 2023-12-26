@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-from models.sender import send_email
-from resources import participants, subject, body
+from resources.sender import send_email
+from models import participants, subject, body
 
 print("Sending emails...")
 
