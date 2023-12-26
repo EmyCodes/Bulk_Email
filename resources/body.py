@@ -5,6 +5,7 @@ import os
 participants = [
     {"name": "Ogundare Olamide Emmanuel", "email": "ogundareolamideemmanuel@gmail.com"},
     {"name": "Ogundare Olamide Emmanuel", "email": "ogundareoemts@gmail.com"}
+    # Add other mail addresess here
 ]
 
 
