@@ -1,4 +1,2 @@
 #!/usr/bin/python3
-from resources.body import (
-    participants, subject, body
-)
+from resources.sender import send_email
