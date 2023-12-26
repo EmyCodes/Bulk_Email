@@ -6,9 +6,4 @@ print("Sending emails...")
 
 for index, participant in participants.iterrows():
     personalized_body = body.replace("[Participant's Name]", participant["Name"].split()[1])
-
-    print(f"Sending email to {participant['Email']}")
     send_email(participant["Email"], subject, personalized_body)
-    print(f'Email sent to {participant["Email"]}')
-
-print("All emails sent successfully")
