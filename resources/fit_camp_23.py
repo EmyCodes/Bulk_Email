@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 import os
 
-smtp_server = "smtp.gmail.com" # For Gmail, It can be changed to any other SMTP server
-
-sender_email = "sender@gmail.com"
-sender_password = "sender_password"
-
 participants = [
     {"name": "Ogundare Olamide Emmanuel", "email": "ogundareolamideemmanuel@gmail.com"},
     {"name": "Ogundare Olamide Emmanuel", "email": "ogundareoemts@gmail.com"}
