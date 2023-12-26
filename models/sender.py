@@ -5,21 +5,23 @@ from sys import argv
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-from editable import sender_email, sender_password, smtp_server
+from editable import sender_name,sender_email, sender_password, smtp_server
 
+name = sender_name
 email = sender_email
 password = sender_password
 email_server = smtp_server
+
 def send_email(recipent_email, subject, body):
     """To be updated"""
     sender_email = email
     sender_password = password
     smtp_server = email_server
-    smtp_port = 587
+    smtp_port = 587 #465
 
     # Create the MIME object
     msg = MIMEMultipart()
-    msg["From"] = sender_email
+    msg["From"] = f"{sender_name} <{sender_email}>"
     msg["To"] = recipent_email
     msg["Subject"] = subject
 
