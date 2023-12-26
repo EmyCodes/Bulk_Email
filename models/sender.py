@@ -34,7 +34,6 @@ def send_email(recipent_email, subject, body):
             server.starttls()
             server.login(sender_email, sender_password)
             server.sendmail(sender_email, recipent_email, msg.as_string())
-            print("Successfully sent email to", recipent_email)
     except Exception as e:
         print(e)
         print("Failed to send email to", recipent_email)
