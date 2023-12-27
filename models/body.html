@@ -4,13 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 10px;
+            padding: 10px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        .logo {
+            max-width: 20%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .flyer {
+            max-width: 20%;
+            height: auto;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        .center {
+        text-align: center;
+        margin: auto;
+        }
+        .closing {
+            margin-top: 1%;
+            font-size: 1em;
+            text-align: left;
+        }
+/* 
+        .blessings {
+            font-weight: bold;
+        } */
+
+        .media-publicity {
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="center">
             <!-- Church Logo Placeholder -->
             <img class="logo" src="https://i.postimg.cc/tT6fXd2m/church-logo.jpg" alt="wordpoint">
+            <!-- <img class="logo" src="images/church_logo.jpg" alt="wordpoint"> -->
         </div>
 
         <p>Dear <i>[Participant's Name],</i></p>
@@ -35,17 +79,23 @@
         <div class="center">
             <!-- FIT CAMP 2023 Flyer Placeholder -->
             <img class="flyer" src="https://i.postimg.cc/cHMKjCwC/fit-camp-23.jpg" alt="FIT CAMP 2023">
+            <!-- <img class="flyer" src="images/fit_camp_23.jpg" alt="FIT CAMP 2023"> -->
         </div>
 
         <p>We anticipate a time of spiritual renewal, fellowship, and impactful prayers during our time together. Thank you for being a part of this special gathering.</p>
 
         <p>Safe travels, and we look forward to seeing you at 6:00 PM today.</p>
 
-        <p>Blessings,</p><br>
+        <!-- <p>Blessings,<br><br>
         <i>
             Media and Publicity<br>
             (Word Point Ministries)
         </i>
+        </p> -->
+        <div class="closing">
+            <p class="blessings">Blessings,</p>
+            <p class="media-publicity"><i>Media and Publicity<br/>(Word Point Ministries)</i></p>
+        </div>
     </div>
 </body>
 </html>
