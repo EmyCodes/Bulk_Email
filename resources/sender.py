@@ -8,7 +8,9 @@ from editable import sender_name, sender_email, sender_password, smtp_server
 yag = yagmail.SMTP(sender_email, sender_password)
 
 def send_email(recipient_email, subject, body):
-    """To be updated"""
+    """ 
+    To send an email, call this function with the recipient's email address.
+    """
 
     # You can uncomment the following lines if you want to attach images
     # church_logo = os.path.join(os.path.dirname(__file__), "images/church_logo.jpg")
