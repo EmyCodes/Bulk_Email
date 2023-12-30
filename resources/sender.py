@@ -1,5 +1,5 @@
 import yagmail
-import os
+# import os
 
 from editable import sender_name, sender_email, sender_password, smtp_server
 
